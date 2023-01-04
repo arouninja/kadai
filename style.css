@@ -1,0 +1,35 @@
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+}
+
+
+main .img-container .spinner {
+    display: none;
+}
+
+main .img-container .dog-img {
+    display: none;
+    width: 80%;
+}
+
+main .img-container .show {
+    display: block;
+}
+
+#new-dog {
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #232323;
+}
